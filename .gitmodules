@@ -1,0 +1,3 @@
+[submodule "noiz-console"]
+	path = noiz-console
+	url = https://github.com/wadejbeckett/noiz-console.git
