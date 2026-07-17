@@ -11,6 +11,7 @@ the whole toolkit.
 | Module | What it is | Status |
 |---|---|---|
 | [clarity-theme-ispconfig](https://github.com/wadejbeckett/clarity-theme-ispconfig) | A complete dark theme for the panel, built on VMware Clarity design tokens — navy rail, dark/light switcher, Clarity icons, redesigned login. No core modifications; survives panel updates. | v2.0, stable |
+| [ispconfig-customizer](https://github.com/wadejbeckett/ispconfig-customizer) | A standalone white-label / branding module — set your logo, panel name, accent colours and login screen from an admin page. Runs on stock ISPConfig; a brand-aware theme (like Clarity) applies the colours. No core modifications. | new |
 
 [![Clarity Theme for ISPConfig dashboard](https://raw.githubusercontent.com/wadejbeckett/clarity-theme-ispconfig/main/mockup/shots/dark-dashboard-desktop.png)](https://github.com/wadejbeckett/clarity-theme-ispconfig)
 
