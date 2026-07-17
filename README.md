@@ -10,9 +10,9 @@ the whole toolkit.
 
 | Module | What it is | Status |
 |---|---|---|
-| [noiz-console](https://github.com/wadejbeckett/noiz-console) | A complete dark theme for the panel, built on VMware Clarity design tokens — navy rail, dark/light switcher, Clarity icons, redesigned login. No core modifications; survives panel updates. | v1.0, stable |
+| [clarity-theme-ispconfig](https://github.com/wadejbeckett/clarity-theme-ispconfig) | A complete dark theme for the panel, built on VMware Clarity design tokens — navy rail, dark/light switcher, Clarity icons, redesigned login. No core modifications; survives panel updates. | v2.0, stable |
 
-[![Noiz Console dashboard](https://raw.githubusercontent.com/wadejbeckett/noiz-console/main/mockup/shots/dark-dashboard-desktop.png)](https://github.com/wadejbeckett/noiz-console)
+[![Clarity Theme for ISPConfig dashboard](https://raw.githubusercontent.com/wadejbeckett/clarity-theme-ispconfig/main/mockup/shots/dark-dashboard-desktop.png)](https://github.com/wadejbeckett/clarity-theme-ispconfig)
 
 More modules are planned. Have something you wish ISPConfig did better?
 [Open an idea](../../issues/new) here.
