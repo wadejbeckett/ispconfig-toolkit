@@ -1,3 +1,6 @@
 [submodule "clarity-theme-ispconfig"]
 	path = clarity-theme-ispconfig
 	url = https://github.com/wadejbeckett/clarity-theme-ispconfig.git
+[submodule "ispconfig-customizer"]
+	path = ispconfig-customizer
+	url = https://github.com/wadejbeckett/ispconfig-customizer.git
