@@ -81,6 +81,13 @@ Verified override mechanisms (each confirmed against 3.3.1p1 source):
    not just branding). Gotchas to encode: setting only one column key
    activates both (empty ≠ default), `[none]` is the hide-all idiom, feeds are
    session-cached until re-login.
+5b. **Staff-view version hiding (requested 2026-07-21):** operators who brand
+   for their own staff don't want "ISPConfig Version: x.y.z" visible in Help.
+   Mechanism: a `[branding]` toggle read by brand.php emitting
+   `#help_version { display:none }` (the nav item carries that html_id) —
+   note it hides for ALL admin users including the superadmin (CSS cannot
+   see roles; the session exposes admin/user type only), and the page stays
+   reachable by direct URL. Role-aware hiding would need a core patch.
 6. **"Neutralize admin chrome" toggle (default OFF):** CSS/JS relabeling of
    admin-only lang surfaces — Monitor's "ISPConfig Log"/"ISPConfig Cron -
    Log", Help's "About ISPConfig", Tools headings, the fail2ban HowtoForge
