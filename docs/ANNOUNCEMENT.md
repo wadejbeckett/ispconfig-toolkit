@@ -43,7 +43,12 @@ paid modules, not away from them.
 
 ![Dashboard](https://raw.githubusercontent.com/wadejbeckett/clarity-theme-ispconfig/main/mockup/shots/dark-dashboard-desktop.png)
 
-*(Light mode and the branding page are attached below.)*
+The Customizer branding page — set the logo, name, colours and visibility
+toggles from inside the panel:
+
+![Branding page](https://raw.githubusercontent.com/wadejbeckett/ispconfig-customizer/main/docs/screenshots/branding-page-dark.png)
+
+*(Light mode of each is attached below.)*
 
 ### What Clarity (the theme) gives you
 
@@ -127,11 +132,12 @@ Thanks — and thanks to Till and the team for ISPConfig.
 | `clarity-theme-ispconfig/mockup/shots/light-login-desktop.png` | Login — light |
 | `clarity-theme-ispconfig/mockup/shots/dark-dashboard-desktop.png` | Dashboard — dark |
 | `clarity-theme-ispconfig/mockup/shots/light-dashboard-desktop.png` | Dashboard — light |
-| A screenshot of the **Branding** admin page | The Customizer module |
+| `ispconfig-customizer/docs/screenshots/branding-page-dark.png` | Branding page — dark |
+| `ispconfig-customizer/docs/screenshots/branding-page-light.png` | Branding page — light |
 
 ### Pre-post checklist
 
-- [ ] Attach the branding-page screenshot (capture from a live panel).
+- [x] Branding-page screenshot captured and committed (dark + light).
 - [ ] Confirm the raw.githubusercontent image URLs render in a forum preview
       (use `raw.githubusercontent.com/.../main/...`, not `github.com/.../raw/...`).
 - [ ] Post from the project account; link the repos, not the live panel.
