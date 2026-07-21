@@ -44,6 +44,11 @@ Verified override mechanisms (each confirmed against 3.3.1p1 source):
 
 ## P0 — bugs & quick wins (all inside the envelope)
 
+> **Status: SHIPPED 2026-07-21** — customizer v1.0.6 + theme v2.1.6/v2.1.7.
+> Items 1-4 below are done and live-verified (title.php serves the branded
+> title on all auth pages incl. OTP; uninstall round-trips tested against the
+> production DB with exact state restoration).
+
 1. **OTP page leaks a bare "ISPConfig" tab title** — core never sets
    `company_name` there, so the v2.1.5 trim never fires. Proper fix: render the
    title server-side in the theme's login template via `tmpl_phpinclude`
